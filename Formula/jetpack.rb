@@ -1,4 +1,4 @@
-class Foo < Formula
+class Jetpack < Formula
   desc "Jetpack"
   homepage "https://www.jetpack.io"
 

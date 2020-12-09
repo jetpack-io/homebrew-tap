@@ -4,7 +4,7 @@ class Foo < Formula
 
   url "https://releases.jetpack.io/jetpack/0.1.0/jetpack_0.1.0-alpha_darwin_amd64.zip"
 
-  sha256 "0a2358a0cbf1965101b73404a7a93ff8a2da084dec6f64d5e74f64aa2ce51754"
+  sha256 "6578bd69ea4f2c37e0ef8a82d111a70806a221de4c40853ce5e1b42220195100"
   # Version numbers should follow the semantic versioning spec
   version "0.1.0-alpha"
   bottle :unneeded

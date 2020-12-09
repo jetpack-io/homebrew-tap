@@ -13,6 +13,18 @@ class Foo < Formula
     bin.install "jetpack"
   end
 
+  def caveats
+    <<~EOS
+      Thanks for installing the command-line tool for jetpack.io
+      Jetpack is currently available by invitation only. Before running, you
+      will have to set the JETPACK_TOKEN environment variable to a valid access
+      token. You might want to add that to your .bashrc (or equivalent):
+        export JETPACK_TOKEN=value-provided-by-jetpack-team
+      Once you've set the environment variable, you should be able to run:
+        jetpack
+    EOS
+  end
+
   test do
     system "#{bin}/jetpack version"
   end
